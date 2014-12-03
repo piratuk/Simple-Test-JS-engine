@@ -42,6 +42,10 @@ footer{
 footer img{
 	padding-top: 10px;
 }
+footer a{
+	color: white;
+	text-decoration: none;
+}
 .button{
 	text-decoration: none;
 	background-color: white;
