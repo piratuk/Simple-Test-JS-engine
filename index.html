@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class='test-name'></title>
+	
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+	<div id="body">
+		<header>
+			<a href=""><h1 class="test-name"></h1></a>
+		</header>
+
+		<div id='rules'>
+			<p id="test-description">
+			</p>
+			<img src="test-cover.jpg">
+			<a href="#" class="button">Готов</a>
+
+		</div>
+		<div id='game-area'>
+			<h1 id='ask'></h1>
+			<img class='question-cover'>
+			<div id='first' class="variable" onclick="answer(1)">
+			</div>
+			<div id='second' class="variable" onclick="answer(2)">
+
+			</div>
+		</div>
+		<div id='result'>
+			<h1>Ваш счёт: </h1>
+			<h2 id='score'></h2>
+			<a href="#" class="button" onclick="startGame()">Заново!</a>
+		</div>
+
+	</div>
+
+		<footer>
+			<a href="http://edpol.org" target="_blank"><img src="logo.png" height="40" alt="Единая Поляна"></a>
+		</footer>
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="scripts/engine.js"></script>
+</body>
+</html>

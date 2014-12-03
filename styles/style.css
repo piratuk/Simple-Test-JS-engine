@@ -1,0 +1,128 @@
+html, body{
+	background-image: url('bg.png');
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: sans-serif;
+}	
+#body{
+	min-height: 100%;
+	padding-bottom: 40px;
+}
+
+header{
+	display: table;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 35px;
+	padding: 0;
+	font-size: 2em;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	background-color: #2E2E2E;
+	-webkit-box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.65);
+	-moz-box-shadow:    0px 3px 15px 5px rgba(0, 0, 0, 0.65);
+	box-shadow:         0px 3px 15px 5px rgba(0, 0, 0, 0.65);	
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	width: 100%;
+	margin-top: -40px;
+	min-height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background-color: #303030;
+}
+footer img{
+	padding-top: 10px;
+}
+.button{
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	padding: 3px;
+}
+
+#rules{
+	width: 960px;
+	margin: 15px auto;
+	padding: 15px;
+	display: none;
+
+	font-size: 2em;
+	background-color: #525252;
+	color: white;
+	overflow: auto;
+}
+#rules p{
+	width: 100%;
+}
+#rules img{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+#rules .button{
+	display: block;
+	margin: 0 auto;
+	font-size: 1.25em;
+	text-align: center;
+}
+#game-area{
+	display: none;
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #525252;
+	color: white;
+	overflow: auto;
+}
+#game-area h1{
+	text-align: center;
+}
+#game-area .variable{
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+	width: 45%;
+	padding: 0;
+	display: inline-block;
+	background-color: white;
+	color: black;
+	font-size: 1.15em;	
+	padding: 15px;
+	cursor: pointer;
+}
+#second{
+	float: right;
+}
+
+#result{
+	display: none;
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #525252;
+	color: white;
+	overflow: auto;
+}
+#result .button{
+	display: block;
+	margin: 0 auto;
+	width: 95%;
+	font-size: 2em;
+	padding: 10px;
+	text-align: center;
+}
